@@ -13,18 +13,28 @@ header {
     max-width: 1200px;
 }
 
-.logo2 {
+.logo img {
+    object-fit: contain;
+    width: 130px;
+    height: 75px;
 
 }
 
 a:link {
     text-decoration: none;
 }
+ul {
+    list-style-type: none;
+ }
 
 .nav-right {
     margin-left: auto;
 }
-.signIn
+.signIn {
+    display: inline-block;
+    background-color: none;
+    color: black;  
+}
 
 .navitem {
     font-style: normal;
