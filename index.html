@@ -6,25 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma design</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <img class="logo"src="imgs/Bitmap.png" alt="logo icon">
-        <span><img class="logo" src="imgs/Productly.png" alt="Logo of Productly"></span>
-        <div>
-            <a class="navitem"href="#">Product</a>
-            <a class="navitem"href="#">Customers</a>
-            <a class="navitem"href="#"> Pricing</a>
-            <a class="navitem"href="#">Resources</a>
-        </div>
-        <div class="nav-right">
-            <a class="signIn button"href="#">Sign In</a>
-            <a class="button"href="#">Sign Up</a>
+        <div class="header">
+            <img class="logo"src="imgs/Bitmap.png" alt="logo icon">
+            <span><img class="logo" src="imgs/Productly.png" alt="logo of Productly"></span>
+            <div class="nav-center">
+                <a class="navitem"href="#">Product</a>
+                <a class="navitem"href="#">Customers</a>
+                <a class="navitem"href="#"> Pricing</a>
+                <a class="navitem"href="#">Resources</a>
+            </div>     
+            <div class="nav-right">
+                <a class="signIn"href="#"><strong> Sign In</strong></a>
+                <a class="button"href="#"><strong>Sign Up</strong></a>
+            </div>
         </div>
     </header>
     <main>
         <div class="container start">
-            <div class="text">
+            <div class="flex-text left">
                 <h1> The Design Thinking superpowers</h1>
                 <br>
                 <p>Tools, tutorials, design and innovation experts, all in one place! 
@@ -32,13 +36,12 @@
                 </p>
                 <br>
                 <a class="button"href="#">Get started</a>
-                <a class="watch"href="#">Watch the Video</a>
-            </div>
-            <div class="picture">
+                <i style="font-size:24px;color: #FF9900;" class="fa">&#xf04b; </i> <span><a class="watch"href="#">Watch the Video</a></span>
+            </div>    
+            <div class="flex-img right">
                 <img src="imgs/image.png" alt="People happily jumping">
-            </div>
         </div>
-        <div class="container tools">
+        <div class="container-tools">
             <h2> We design tools to unveil your superpowers </h2>
             <ul>
                 <li>
@@ -61,11 +64,11 @@
                     <p><strong>Five seconds tests</strong></p>
                     <p>Personal choices and the overall personality of the person.</p>
                 </li>
-                <a class= "button_upcase"href="#">sign up now</a>   
+                <a class= "button upcase"href="#">sign up now</a>   
             </ul>
         </div>
         <div class="container design"> 
-            <div class="text">
+            <div class="flex-text left">
                 <p>Effortless validation for</p>
                 <h2> Design Professionals</h2>
                 <br>
@@ -84,14 +87,14 @@
                 <p>If you are looking for a new way to promote your business that won&#180;t
                      cost you more money. </p>
             </div>
-            <div class="picture">
-                <img src="imgs/Image-2.png" alt="A man receiving text messages on his phone">
+            <div class="flex-img right">
+                <img src="imgs/Image-2.png" alt="A man receiving flex messages on his phone">
         </div>
         <div class="container product ">
-            <div class="picture_left">
+            <div class="flex-img left">
                 <img src="imgs/Image-3.png" alt="A man infront of the desktop">
             </div>
-            <div class="text">
+            <div class="flex-text right">
                 <p> Easier decision making for</p>
                 <h2>Product Managers</h2>
                 <br>
@@ -101,7 +104,7 @@
                <ul>
                 <li>
                     <img src="imgs/Group 13.png" alt="check icon"> <span><p> Never worry about overpaying for your 
-                        energy again. </span></p>
+                        energy again. </p></span>
                 </li>
                 <li>
                     <img src="imgs/Group 13.png" alt="check icon"><span> <p>We will only switch you to energy companies
@@ -115,7 +118,7 @@
             </div>
         </div>
         <div class="container marketers">
-            <div class="text">
+            <div class="flex-text left">
                 <p>Optimisation for</p>
                 <h2>Marketers</h2>
                 <br>
@@ -133,31 +136,34 @@
                 <p>If you are looking for a new way to promote your business that won&#180;t
                     cost you more money. </p>   
             </div>
-            <div class="picture">
+            <div class="flex-img right">
                 <img src="imgs/Image-4.png" alt="A man clicking buttons on a big screen">
             </div>
         </div>
     </main> 
     <footer>
         <div>
-            <img class="logo1"src="imgs/Bitmap.png" alt="logo icon"> 
-            <span><img class="logo2" src="imgs/Productly.png" alt="Logo of Productly"></span>
+            <img class="logo"src="imgs/Bitmap.png" alt="logo icon"> 
+            <span><img class="logo" src="imgs/Productly.png" alt="logo of Productly"></span>
         <ul>
-            <a href="#">About Us</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-            <a href="#">FAQ</a>
+            <li><a class="nav-center ftr"href="#">About Us</a></li>
+            <li><a class="nav-center ftr"href="#">Blog</a></li>
+            <li> <a class="nav-center ftr"href="#">Contact</a></li>
+            <li><a class="nav-center ftr"href="#">FAQ</a></li>
         </ul>
         <ul>
-            <a href="#">Disclaimer</a>
-            <a href="#">Financing</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+            <li><a class="nav-center ftr"href="#">Disclaimer</a></li>
+            <li> <a class="nav-center ftr"href="#">Financing</a></li>
+            <li><a class="nav-center ftr"href="#">Privacy Policy</a></li>
+            <li> <a class="nav-center ftr"href="#">Terms of Service</a></li>
         </ul>
         <form action="/url" method="GET">
-            <input type="text">
-            <a class="button"href="#">Sign Up Now</a>
+            <ul>
+                <li><input type="flex"></li>
+                <li><a class="button"href="#">Sign Up Now</a></li>
+            </ul>
+            
         </form>
-    </footer>   
+    </footer>  
 </body>
 </html>
